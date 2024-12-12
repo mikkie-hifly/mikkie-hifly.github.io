@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@import "style.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #07203F;
+    border-bottom: 1px solid white;
+}
+
+footer {
+    background-color: #07203F;
+    border-bottom: 1px solid white;
+}
+
+section {
+    border-bottom: 1px solid white;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px; 
+    padding-right: 16px;
+}
+
+.container-head {
+    padding: 55px;
+    justify-content: space-around;
+}
+
+.first-box-head {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+}
+
+.second-box-head {
+    display: flex;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    gap: 40px;
+}
+
+.color {
+    color: white;
+}
+
+.nobullet {
+    list-style-type: none;
+}
+
+.size-img {
+    width: 516px;
+    height: 516px;
+    border-radius: 50%;
+    margin-right: 135px;
+    margin-left: 40px;
+    margin-top: 135px;
+    margin-bottom: 135px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.container-first-section {
+    background-color: #07203F;
+    justify-content: space-around;
+}
+
+.first-box-section {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content:center;
+    gap: 80px;
+    margin-left: 150px;
+}
+
+.h1-mini-box {
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.02px;
+}
+
+.p-mini-box {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42.19px;
+}
+
+.baton {
+    width: 605px;
+    height: 106px;
+    border-radius: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+}
+
+.container-second-section {
+    background-image: url("https://kartinki.pics/uploads/posts/2021-03/1616044567_33-p-fon-shrek-36.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.three-blocks-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    gap: 50px;
+}
+
+.text-position-and-size1 {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 88px;
+    color: rgb(132, 210, 232);
+    padding-top: 50px;
+    margin-top: 70px;
+}
+
+.mini-block-size {
+    width: 350px;
+    height: 350px;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.02px;
+    color: rgb(255, 255, 255);
+    background-color:#07203F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imgHTML {
+    background-image: url("https://twam.ru/wp-content/uploads/2024/03/osel-shrek-4.webp");
+    background-size: cover;
+    background-position: center;
+    width: 344px;
+    height: 223px;
+    margin-bottom: 20px;
+}
+
+.imgCSS {
+    background-image: url("https://i.pinimg.com/736x/04/e4/ec/04e4ec5b4d10dfd0d51e90aaadd77fe4.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 344px;
+    height: 223px;
+    margin-bottom: 20px;
+}
+
+.imgJS {
+    background-image: url("https://licensingrussia.ru/media/cache/f3/47/f34776730374f4559517103fa70d1634.png");
+    background-size: cover;
+    background-position: center;
+    width: 344px;
+    height: 223px;
+    margin-bottom: 20px;
+}
+
+.container-three-section {
+    background-color: #07203F;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three-blocks-column {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-bottom: 110px;
+}
+
+.text-position-and-size2 {
+    font-family: Montserrat;
+    font-size: 82px;
+    font-weight: 800;
+    line-height: 88px;
+    color: rgb(255, 255, 255);
+    padding-top: 110px;
+    padding-bottom: 60px;
+}
+
+.size-text1 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    color: rgb(255, 255, 255);
+}
+
+.size-text2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    color: rgb(255, 255, 255);
+}
+
+.text-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    height: 366px;
+}
+
+.block-row {
+    display: flex;
+}
+
+.li-reverse {
+    flex-direction: row-reverse;
+}
+
+.section-three-img1 {
+    background-image: url("https://media.2x2tv.ru/content/images/size/w1440h1440/2021/03/-----4.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 540px;
+    height: 366px;
+}
+
+.section-three-img2 {
+    background-image: url("https://www.justwatch.com/images/backdrop/321414035/s1920/shrek-2.webp/shrek-2.webp");
+    background-size: cover;
+    background-position: center;
+    width: 540px;
+    height: 366px;
+}
+
+.section-three-img3 {
+    background-image: url("https://zastavki.gas-kvas.com/uploads/posts/2024-06/zastavki-gas-kvas-com-si8o-p-zastavki-shrek-navsegda-2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 540px;
+    height: 366px;
+}
+
+.container-fourth-section {
+    background-color: #ffdba97d;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 750px;
+    height: 665px;
+    background-color:rgb(255, 255, 255) ;
+    margin: 70px;
+    margin-bottom: 140px;
+}
+
+.inputs {
+    width: 630px;
+    height: 100px;
+    background-color: #a99b8732;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 20px;
+    
+}
+
+.baton-size {
+    width: 266px;
+    height: 68px;
+    background-color: #a99b8732;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.lable {
+    display: flex;
+    width: 630px;
+    justify-content: space-between;
+}
+
+.text-section-3 {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 88px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+.container-fifth-section {
+    background-image: url("https://images.wallpaperscraft.ru/image/single/fon_piatna_temnyj_91678_1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.three-blocks-row-2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    gap: 50px;
+}
+
+.text-position-and-size1-2 {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 88px;
+    color: rgb(11, 55, 67);
+    padding-top: 50px;
+    margin-top: 70px;
+}
+
+.mini-block-size-2 {
+    width: 350px;
+    height: 350px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58.02px;
+    color: rgb(255, 255, 255);
+    background-color:#07203F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.baton1-2 {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    width: 300px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.link1-2 {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 49px;
+}
+
+.imgCSS-2 {
+    background-image: url("https://i.pinimg.com/736x/04/e4/ec/04e4ec5b4d10dfd0d51e90aaadd77fe4.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 344px;
+    height: 223px;
+    margin-bottom: 20px;
+}
+
+.imgJS-2 {
+    background-image: url("https://licensingrussia.ru/media/cache/f3/47/f34776730374f4559517103fa70d1634.png");
+    background-size: cover;
+    background-position: center;
+    width: 344px;
+    height: 223px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.container-foot {
+    padding: 55px;
+    justify-content: space-around;
+}
+
+.first-box-foot {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+}
+
+.second-box-foot {
+    display: flex;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    gap: 40px;
+}
+
